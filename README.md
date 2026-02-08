@@ -4,7 +4,7 @@ UNIP is a deep learning–based system designed to automatically detect and clas
 
 ---
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 Manual inspection of semiconductor wafers is:
 
@@ -16,7 +16,7 @@ Defects like cracks, contamination, or pattern irregularities can significantly 
 
 ---
 
-## 🚀 Solution Overview
+## Solution Overview
 
 UNIP uses a **ResNet18 CNN model**, modified for grayscale wafer images, to classify multiple defect types. The pipeline includes:
 
@@ -26,7 +26,7 @@ UNIP uses a **ResNet18 CNN model**, modified for grayscale wafer images, to clas
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 * Backbone: **ResNet18**
 * Input: Grayscale wafer images (1-channel)
@@ -35,7 +35,7 @@ UNIP uses a **ResNet18 CNN model**, modified for grayscale wafer images, to clas
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 unip/
@@ -56,11 +56,9 @@ unip/
 └── README.md
 ```
 
-> ⚠️ Note: `data/` and `weights/` are excluded from GitHub using `.gitignore`.
-
 ---
 
-## ⚙️ Installation
+##Installation
 
 ```bash
 pip install -r requirements.txt
@@ -68,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️ Training the Model
+##Training the Model
 
 ```bash
 python train.py
@@ -80,7 +78,7 @@ python train.py
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 ```bash
 python evaluate.py
@@ -104,7 +102,7 @@ Predicts defect class for a single wafer image.
 
 ---
 
-## 🏭 Industrial Impact
+##  Industrial Impact
 
 * Reduces manual inspection effort
 * Improves defect detection accuracy
@@ -113,7 +111,7 @@ Predicts defect class for a single wafer image.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Real-time inference on edge devices
 * Transformer-based vision models
@@ -122,14 +120,15 @@ Predicts defect class for a single wafer image.
 
 ---
 
-## 👥 Team
+##  Team
 
 **UNIP**
 IESA Deep Tech Hackathon 2025
 
 ---
 
-## 📜 License
+##  License
 
 This project is intended for academic and hackathon use.
+for acessing dataset refer google drive
 https://drive.google.com/file/d/1jqqKi3JYDAzw2xkgGBI253ODSUa-KD9I/view?usp=drive_link
